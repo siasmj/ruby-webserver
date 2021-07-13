@@ -10,7 +10,7 @@ class WebServer
 
   attr_accessor :app
 
-  # Must be a Rack app
+  # Must be a Rack-compatible app
   def initialize(app)
     self.app = app
   end
